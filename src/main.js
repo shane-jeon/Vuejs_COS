@@ -7,13 +7,3 @@ import VueSplide from "@splidejs/vue-splide";
 const app = createApp(App);
 app.use(VueSplide);
 app.mount("#app");
-// createApp(App).mount('#app')
-
-// const main = new Splide(".splide", {
-//   type: "fade",
-//   rewind: true,
-//   arrows: true,
-//   pagination: false,
-// });
-
-// main.mount({ URLHash });
