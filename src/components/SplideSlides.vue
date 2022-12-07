@@ -4,7 +4,7 @@
       <SplideSlide
         v-for="slide in slides"
         :key="slide.alt"
-        :data-splide-hash="slide"
+        :data-splide-hash="slide.datasplidehash"
       >
         <img
           :src="slide.src"
